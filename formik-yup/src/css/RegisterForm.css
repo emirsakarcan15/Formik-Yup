@@ -1,0 +1,40 @@
+#wrapper {
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-top: 260px;
+    border: 2px solid lavender;
+    border-radius: 4px;
+    padding: 10px;
+    align-items: start;
+}
+
+.form-elements {
+    padding: 5px;
+}
+
+.form-element-inputs {
+    outline: none;
+    border: 2px solid lavender;
+    background-color: #B2AC88;
+    border-radius: 2px;
+}
+
+#inscrire-button {
+    width: 378px;
+    margin-top: 10px;
+    border: 2px solid lavender;
+    border-radius: 5px;
+    background-color: #B2AC88;
+    height: 30px;
+}
+
+#inscrire-button:hover {
+    cursor: pointer;
+    background-color: lavender;
+    transition: 0.6s;
+}
+
+.input-error {
+    color: red;
+    font-size: 14px;
+}
